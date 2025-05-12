@@ -1,4 +1,5 @@
 Config = {
+    debug = false, -- enable debug for ox_lib zones
     lockerWeight = 100000, -- weight of the locker
     lockerSlots = 50, -- slots of the locker
     retrievalLocations = {

@@ -15,10 +15,10 @@ A FiveM resource that allows law enforcement officers to securely store a citize
 This resource requires the following dependencies:
 
 - [qb-core](https://github.com/qbcore-framework/qb-core) - The core framework that provides player data and other essential functions
-- [ox_inventory](https://github.com/overextended/ox_inventory) - Inventory system used for stash management
-- [ox_lib](https://github.com/overextended/ox_lib) - Library providing callback functions and UI components
-- [ox_target](https://github.com/overextended/ox_target) - Target system for interaction points
-- [oxmysql](https://github.com/overextended/oxmysql) - MySQL wrapper for database operations
+- [ox_inventory](https://github.com/CommunityOx/ox_inventory) - Inventory system used for stash management
+- [ox_lib](https://github.com/CommunityOx/ox_lib) - Library providing callback functions and UI components
+- [ox_target](https://github.com/CommunityOx/ox_target) - Target system for interaction points
+- [oxmysql](https://github.com/CommunityOx/oxmysql) - MySQL wrapper for database operations
 
 ## Installation
 
@@ -55,8 +55,13 @@ This resource is designed to provide a more realistic and convenient way for law
 
 ## Support
 
-This is a specialized script developed for specific server needs. No support will be provided and only PR's be accepted.
+This is a specialized script developed for specific servers need they did not want to use it so I figured I would release it for everyone. No support will be provided and only PR's be accepted.
 
-## License
+## 
+Copyright © 2025 Snowpeak Studio https://github.com/Snowpeak-Studio
 
-All rights reserved. Unauthorized distribution, modification, or commercial use is prohibited.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.

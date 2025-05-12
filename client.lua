@@ -1,7 +1,6 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 local Target = exports.ox_target
 local Inventory = exports.ox_inventory
-local debug = true
 
 
 local function openLocker(id, coords, isPlayer)
@@ -29,14 +28,14 @@ local function init()
                 coords = v.coords,
                 size = v.size or vector3(1.0, 1.0, 1.0),
                 rotation = v.rotation or 0.0,
-                debug = debug,
+                debug = Config.debug,
                 options = retrivalOptions,
             })
         elseif v.type == 'poly' then
             Target:addPolyZone({
                 name = 'sp_locker_retrieval_' .. k,
                 points = v.points,
-                debug = debug,
+                debug = Config.debug,
                 options = retrivalOptions,
             })
         elseif v.type == 'sphere' then
@@ -44,7 +43,7 @@ local function init()
                 name = 'sp_locker_retrieval_' .. k,
                 coords = v.coords,
                 radius = v.radius or 1.0,
-                debug = debug,
+                debug = Config.debug,
                 options = retrivalOptions,
             })
         end
@@ -72,14 +71,14 @@ local function init()
                 coords = v.coords,
                 size = v.size or vector3(1.0, 1.0, 1.0),
                 rotation = v.rotation or 0.0,
-                debug = debug,
+                debug = Config.debug,
                 options = retrivalOptions,
             })
         elseif v.type == 'poly' then
             Target:addPolyZone({
                 name = 'sp_locker_access_' .. k,
                 points = v.points,
-                debug = debug,
+                debug = Config.debug,
                 options = retrivalOptions,
             })
         elseif v.type == 'sphere' then
@@ -87,7 +86,7 @@ local function init()
                 name = 'sp_locker_access_' .. k,
                 coords = v.coords,
                 radius = v.radius or 1.0,
-                debug = debug,
+                debug = Config.debug,
                 options = retrivalOptions,
             })
         end
